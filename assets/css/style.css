@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.team-member{
+    width: 350px;
+    display: inline-block;
+    margin: 50px 20px ;
+
+}
+.team-member img{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+text-align: center;
+}
+.team-member h2{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    transition: 1s;
+}
+.team-member p{
+    text-align: center;
+    font-size: 18px;
+    color:green;
+}
+.team{
+    text-align: center;
+    background-color:black;
+    background: linier-gradient 
+}
+.team-member h2:hover{
+    font-size: 35px;
+    color:white;
+    background-color: red;
+}
